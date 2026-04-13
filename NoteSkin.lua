@@ -15,7 +15,7 @@ function grammar_glyph.Load()
 	local sElement = Var "Element";
 
 	local Button = "Down";
-	local Element = "Image";
+	local Element = "Arrow";
 
 	local actor = LoadActor(NOTESKIN:GetPath(Button,Element));
 
