@@ -1,5 +1,15 @@
 local grammar_glyph = ... or {};
 
+grammar_glyph.RedirTable =
+{
+	Up = "Down",
+	Down = "Down",
+	Left = "Down",
+	Right = "Down",
+	UpLeft = "Down",
+	UpRight = "Down",
+};
+
 function grammar_glyph.Load()
 	local sButton = Var "Button";
 	local sElement = Var "Element";
